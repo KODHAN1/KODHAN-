@@ -1,0 +1,58 @@
+/* ==============================
+   HİZMETLER BÖLÜMÜ
+============================== */
+.services {
+  padding: 80px 40px;
+  background: #fff;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.services .subtitle {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.service-box {
+  background: #f9f9f9;
+  border-radius: 15px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.service-box img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.service-box h3 {
+  color: #00bfff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-box p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}

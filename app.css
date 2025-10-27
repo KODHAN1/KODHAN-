@@ -1,0 +1,71 @@
+/* Genel ayarlar */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Login kutusu */
+.login-container {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  width: 320px;
+  text-align: center;
+}
+
+/* Başlık */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputlar */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.login-container input:focus {
+  border-color: #667eea;
+}
+
+/* Buton */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background: #5a67d8;
+}
+
+/* Alt yazı */
+.login-container .info {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #555;
+}
+
+.login-container .info a {
+  color: #667eea;
+  text-decoration: none;
+}
